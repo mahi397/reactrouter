@@ -1,24 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div class="content">
+      <header> 
+	      <img src="logostellar.jpg" alt="Logo image of a house enclosing the letter S." class="logo center" ></img>
+        <h1>Stellar Sitting Services   </h1>
       </header>
-    </div>
+      
+      <p>Looking for a pet and/or house sitter? We have you covered!</p>
+      <p><img src="doghouse.jpg" alt="Photo of a dog next to a large doghouse." class="round right" ></img> </p>
+      <p>Our company has been open and providing excellent services for over a dozen years. Our sitters are thoughtful, respectful, and well trained in home and pet care.</p>
+      <nav>
+        <ul>
+          <li> Home  </li>
+          <li> <a href="stellarhouse.html">House Sitting</a> </li>
+          <li> <a href="stellarpet.html">Pet Sitting</a> </li>
+          <li> <a href="contact.html">Contact Us</a> </li>
+        </ul>
+      </nav>
+        
+      <h2>About Stellar Sitting Services</h2>  
+      <p>
+        At Stellar, we take pride in our exceptional customer service. We began our business with one employee - Janie Stellar, owner and founder. Janie's reputation for trustworthy and caring service grew over the years, as did the company. Stellar now employs over 300 sitters.
+      </p>
+      <p>
+        Every one of our sitters has completed extensive security checks, along with intensive training on pet care, home care, and security/emergency procedures. You can trust a Stellar sitter!
+      </p>
+      
+      <footer> 
+        &copy; Copyright 2007 Stellar Sitting Services, LLC
+      </footer>
+     </div>
   );
 }
 
