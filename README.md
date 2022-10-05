@@ -25,3 +25,12 @@ And in `public/index.html` we remove the code within the <body> element and inst
 Hence, in the body of my HTML, I am injecting the JS that is going to be rendered on my page  
   
 After this when I run `npm start` I can see the development server starts on port 3000 and I can see my rendered page
+
+## Import React-Router nvigation components
+In `App.js` we need to import the React modules to allow for navigation within the SPA.  
+When the user clicks on a link, it will take the user to a different part of the app rather than loading a different page from the server.  
+In `App.js`, we add the following imports (within curly braces since importing multiple modules from the same react-router-dom package) -
+- BrowserRouter
+- Switch (to select the React component based on the selected link. Child of BrowserRouter)
+- Route (provides a mapping from the link to the React component. Child of Switch tag)
+- Link (the React Link component which actually provides the link declaration - a path to the link and a name for the link, like in HTML)
