@@ -34,3 +34,10 @@ In `App.js`, we add the following imports (within curly braces since importing m
 - Switch (to select the React component based on the selected link. Child of BrowserRouter)
 - Route (provides a mapping from the link to the React component. Child of Switch tag)
 - Link (the React Link component which actually provides the link declaration - a path to the link and a name for the link, like in HTML)
+
+### Creating Components
+Create separate components for each of the pages we want to link, i.e. Home, House, Pet, Contact.  
+Copy "content" div from App.js (para following <header>) for Home,  
+contact.html for Contact,  
+stellarpet.html for Pet,  
+stellarhouse.html for House.
