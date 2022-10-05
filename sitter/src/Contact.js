@@ -19,11 +19,10 @@ class Contact extends Component {
                     Phone or Text: 444-555-3333
                 </p>
 
-                <footer>
-                    &copy; Copyright 2007 Stellar Sitting Services, LLC
-                </footer>
             </div>
         );
     }
 
 }
+
+export default Contact;

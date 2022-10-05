@@ -74,10 +74,9 @@ class Pet extends Component {
                     </table>
                 </p>
 
-                <footer>
-                    &copy; Copyright 2007 Stellar Sitting Services, LLC
-                </footer>
             </div>
         );
     }
 }
+
+export default Pet;

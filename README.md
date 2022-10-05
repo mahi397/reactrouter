@@ -41,3 +41,9 @@ Copy "content" div from App.js (para following <header>) for Home,
 contact.html for Contact,  
 stellarpet.html for Pet,  
 stellarhouse.html for House.
+
+### Add navigation links to each created React component
+- Add the <Router> element (BrowserRouter)
+- Modify the HTML links(<a href>) to React navigation links(<Link to>) (`to` has the URL pattern)
+- Use the React <Switch> tag to determine which Link was clicked
+- Use <Route> to route the link to the appropriate Component (`path` is the detected URL pattern. **Remember to put '/' root path LAST**. If it's put first, all patterns following slash would route to home.)

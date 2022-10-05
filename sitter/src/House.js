@@ -9,14 +9,6 @@ class House extends Component {
                     <img src="beachhouse.jpg" alt="Photo of a beach house." class="right round" ></img>
                 </p>
 
-                <nav>
-                    <ul>
-                        <li> <a href="index.html">Home</a> </li>
-                        <li> House Sitting  </li>
-                        <li> <a href="stellarpet.html">Pet Sitting</a> </li>
-                        <li> <a href="contact.html">Contact Us</a> </li>
-                    </ul>
-                </nav>
                 <p>Looking for a house sitter? We have you covered!</p>
                 <p>Our company has been open and providing excellent services for over a dozen years. Our house sitters are thoughtful, respectful, and well trained in home care.</p>
 
@@ -74,10 +66,9 @@ class House extends Component {
                     </table>
                 </p>
 
-                <footer>
-                    &copy; Copyright 2007 Stellar Sitting Services, LLC
-                </footer>
             </div>
         );
     }
 }
+
+export default House;
